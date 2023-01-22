@@ -5,12 +5,13 @@ import (
 	"github.com/paulmach/orb"
 	"github.com/paulmach/orb/geo"
 	"github.com/paulmach/orb/planar"
+	"testing"
 )
 
-func main() {
-	ExampleArea()
-	ExamplePointInPoly()
-}
+//func main() {
+//	ExampleArea()
+//	ExamplePointInPoly()
+//}
 
 func ExampleArea() {
 	poly := orb.Polygon{
@@ -29,11 +30,26 @@ func ExampleArea() {
 	// 6073.368008 m^2
 }
 
-func ExamplePointInPoly() {
+func TestIsPointInPoly(t *testing.T) {
+	point := [2]float64{-46.2, 170.1}
+
+	poly := Poly2()
+	mPoly := make([][][][2]float64, 0)
+	mPoly = append(mPoly, poly)
+
+	ok := IsPointInPoly(point, mPoly)
+
+	fmt.Printf("Point in Poly: %t\n", ok)
+}
+
+func TestIsPointInPolyOrb(t *testing.T) {
 	var point orb.Point
 	point = [2]float64{-46.2, 170.1}
-	poly := Poly1()
-	ok := isPointInPoly(point, poly)
+	poly := Poly1Orb()
+	multiPoly := orb.MultiPolygon{}
+	multiPoly = append(multiPoly, poly)
+
+	ok := IsPointInPolyOrb(point, multiPoly)
 
 	fmt.Printf("Point in Poly: %t\n", ok)
 }
@@ -48,5 +64,5 @@ func isPointInPoly(point orb.Point, poly orb.Polygon) bool {
 }
 
 func WarningPoly() orb.Polygon {
-	return Poly1()
+	return Poly1Orb()
 }

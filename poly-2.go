@@ -1,9 +1,7 @@
 package main
 
-import "github.com/paulmach/orb"
-
-func Poly1Orb() orb.Polygon {
-	poly := orb.Polygon{
+func Poly2() [][][2]float64 {
+	var poly = [][][2]float64{
 		{
 			{-46.082, 170.23},
 			{
@@ -259,5 +257,6 @@ func Poly1Orb() orb.Polygon {
 			},
 		},
 	}
+
 	return poly
 }
