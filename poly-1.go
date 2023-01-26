@@ -1,4 +1,4 @@
-package main
+package ShapeServiceGo
 
 import "github.com/paulmach/orb"
 

@@ -1,4 +1,4 @@
-package main
+package ShapeServiceGo
 
 func Poly2() [][][2]float64 {
 	var poly = [][][2]float64{
