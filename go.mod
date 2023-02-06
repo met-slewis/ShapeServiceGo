@@ -3,8 +3,8 @@ module github.com/met-slewis/ShapeServiceGo
 go 1.19
 
 replace (
-	github.com/MetServiceDev/WeatherEventLib => ../WeatherEventLib
-	github.com/met-slewis/WeatherUMS => ../WeatherUMS
+	github.com/MetServiceDev/WeatherEventLib => ../weatherEvents/WeatherEventLib
+	github.com/met-slewis/WeatherUMS => ../weatherEvents/WeatherUMS
 )
 
 require (
