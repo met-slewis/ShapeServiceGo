@@ -1,7 +1,7 @@
 package ShapeServiceGo
 
-func Poly2() [][][2]float64 {
-	var poly = [][][2]float64{
+func Poly2() WarningPolysType {
+	var poly = WarningPolysType{
 		{
 			{-46.082, 170.23},
 			{

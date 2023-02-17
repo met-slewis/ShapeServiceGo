@@ -1,0 +1,345 @@
+{
+  "areaDescription": "Auckland, including Great Barrier Island and other islands in the Hauraki Gulf  ",
+  "baseName": "Strong Wind Warning",
+  "capId": "2.49.0.0.554.0.severeweather.nz.20230214075605207.14",
+  "category": "SWWARNINGS+WATCHES",
+  "displayRegions": [
+    "upper-north"
+  ],
+  "eventType": "wind",
+  "expiresAt": "2023-02-15T12:00:00+13:00",
+  "icon": "warning-wind",
+  "imageUrl": null,
+  "instruction": "",
+  "isActive": true,
+  "issuedAt": "2023-02-14T20:56:05+13:00",
+  "issuedAtIce": 1676361365000,
+  "name": "Strong Wind Warning - Red",
+  "nameColour": "Red",
+  "nextIssueAt": "2023-02-15T10:00:00+13:00",
+  "polygons": [
+    [
+      [
+        -36.327,
+        175.426
+      ],
+      [
+        -36.289,
+        175.383
+      ],
+      [
+        -36.244,
+        175.271
+      ],
+      [
+        -36.159,
+        175.261
+      ],
+      [
+        -36.052,
+        175.327
+      ],
+      [
+        -36.004,
+        175.406
+      ],
+      [
+        -36.009,
+        175.416
+      ],
+      [
+        -36.1,
+        175.469
+      ],
+      [
+        -36.1,
+        175.515
+      ],
+      [
+        -36.105,
+        175.525
+      ],
+      [
+        -36.167,
+        175.532
+      ],
+      [
+        -36.228,
+        175.505
+      ],
+      [
+        -36.305,
+        175.572
+      ],
+      [
+        -36.375,
+        175.535
+      ],
+      [
+        -36.327,
+        175.426
+      ]
+    ],
+    [
+      [
+        -36.081,
+        174.64
+      ],
+      [
+        -36.215,
+        174.732
+      ],
+      [
+        -36.268,
+        174.835
+      ],
+      [
+        -36.332,
+        174.828
+      ],
+      [
+        -36.353,
+        174.878
+      ],
+      [
+        -36.422,
+        174.901
+      ],
+      [
+        -36.473,
+        174.884
+      ],
+      [
+        -36.499,
+        174.779
+      ],
+      [
+        -36.529,
+        174.749
+      ],
+      [
+        -36.561,
+        174.739
+      ],
+      [
+        -36.579,
+        174.855
+      ],
+      [
+        -36.624,
+        174.851
+      ],
+      [
+        -36.656,
+        174.775
+      ],
+      [
+        -36.741,
+        174.792
+      ],
+      [
+        -36.738,
+        174.881
+      ],
+      [
+        -36.69,
+        174.95
+      ],
+      [
+        -36.746,
+        174.987
+      ],
+      [
+        -36.746,
+        175.079
+      ],
+      [
+        -36.722,
+        175.218
+      ],
+      [
+        -36.754,
+        175.244
+      ],
+      [
+        -36.86,
+        175.238
+      ],
+      [
+        -36.91,
+        175.221
+      ],
+      [
+        -36.939,
+        175.251
+      ],
+      [
+        -36.979,
+        175.304
+      ],
+      [
+        -37.039,
+        175.317
+      ],
+      [
+        -37.124,
+        175.317
+      ],
+      [
+        -37.174,
+        175.337
+      ],
+      [
+        -37.192,
+        175.32
+      ],
+      [
+        -37.208,
+        175.284
+      ],
+      [
+        -37.221,
+        175.241
+      ],
+      [
+        -37.255,
+        175.142
+      ],
+      [
+        -37.313,
+        174.898
+      ],
+      [
+        -37.329,
+        174.815
+      ],
+      [
+        -37.366,
+        174.729
+      ],
+      [
+        -37.379,
+        174.676
+      ],
+      [
+        -37.071,
+        174.514
+      ],
+      [
+        -37.066,
+        174.481
+      ],
+      [
+        -37.034,
+        174.455
+      ],
+      [
+        -36.849,
+        174.412
+      ],
+      [
+        -36.68,
+        174.3
+      ],
+      [
+        -36.499,
+        174.144
+      ],
+      [
+        -36.497,
+        174.144
+      ],
+      [
+        -36.446,
+        174.191
+      ],
+      [
+        -36.409,
+        174.224
+      ],
+      [
+        -36.372,
+        174.263
+      ],
+      [
+        -36.271,
+        174.409
+      ],
+      [
+        -36.231,
+        174.455
+      ],
+      [
+        -36.193,
+        174.504
+      ],
+      [
+        -36.081,
+        174.64
+      ]
+    ],
+    [
+      [
+        -36.18,
+        175.036
+      ],
+      [
+        -36.148,
+        175.089
+      ],
+      [
+        -36.151,
+        175.099
+      ],
+      [
+        -36.177,
+        175.135
+      ],
+      [
+        -36.239,
+        175.119
+      ],
+      [
+        -36.247,
+        175.079
+      ],
+      [
+        -36.233,
+        175.036
+      ],
+      [
+        -36.18,
+        175.036
+      ]
+    ]
+  ],
+  "preview": {
+    "details": {
+      "markdown": "**Forecast:** Severe southwest gales gusting 120 km/h in exposed places.\n\n**Impact:** These winds are expected to produce widespread damage, especially to trees and powerlines and could lift roofs. Transport and power networks are likely to be significantly impacted, with road closures and power outages. Conditions will be hazardous for motorists and there is a danger to life from flying debris and falling trees or branches.\n\n###### Next update: 10:00am Wed 15 Feb"
+    },
+    "markdown": "**Period:** 4hrs from 8pm Tue, 14 Feb - midnight Tue, 14 Feb\n\n**Area:** Auckland, including Great Barrier Island and other islands in the Hauraki Gulf  \n\n###### Issued: 8:56pm Tue 14 Feb\n\n",
+    "name": "Strong Wind Warning - Red",
+    "shareText": "MetService Strong Wind Warning - Red\n\nArea: Auckland, including Great Barrier Island and other islands in the Hauraki Gulf  \n\nPeriod: 4hrs from 8pm Tue, 14 Feb - midnight Tue, 14 Feb\n\nForecast: Severe southwest gales gusting 120 km/h in exposed places.\n\nImpact: These winds are expected to produce widespread damage, especially to trees and powerlines and could lift roofs. Transport and power networks are likely to be significantly impacted, with road closures and power outages. Conditions will be hazardous for motorists and there is a danger to life from flying debris and falling trees or branches.\n\nIssued: 8:56pm Tue 14 Feb\n\nAll severe weather information:\nhttps://www.metservice.com/warnings\n\nDownload the MetService app.\nhttps://www.metservice.com/app",
+    "warnIcon": "warning-wind-red",
+    "warnLevel": "red"
+  },
+  "regions": [
+    "Auckland",
+    "Great Barrier Island"
+  ],
+  "situation": {
+    "headline": "Cyclone Gabrielle continues to bring severe weather to northern and central parts of New Zealand",
+    "statement": "Cyclone Gabrielle, now east of East Cape, is expected to continue moving slowly away to the southeast of New Zealand.\n\nAlthough Cyclone Gabrielle is moving away from New Zealand and severe weather eases in most places before dawn on Wednesday, heavy rain continues to impact parts of central New Zealand through until Thursday. In addition, large waves, storm surges and coastal inundation are still affecting exposed coasts of the North Island.\n\nIt is important to keep up to date with MetService forecasts and follow the advice of local authorities."
+  },
+  "text": "Severe southwest gales gusting 120 km/h in exposed places.",
+  "threatEndTime": "2023-02-15T00:00:00+13:00",
+  "threatPeriod": "4hrs from 8pm Tue, 14 Feb - midnight Tue, 14 Feb",
+  "threatStartTime": "2023-02-14T20:00:00+13:00",
+  "type": "wind",
+  "validTo": "0001-01-01T00:00:00Z",
+  "warnIcon": "warning-wind-red",
+  "warnLevel": "red",
+  "warningType": "SEVERE_WEATHER_WARNING",
+  "content": "<h3>Cyclone Gabrielle continues to bring severe weather to northern and central parts of New Zealand</h3>\n<p>Cyclone Gabrielle, now east of East Cape, is expected to continue moving slowly away to the southeast of New Zealand.</p><p>Although Cyclone Gabrielle is moving away from New Zealand and severe weather eases in most places before dawn on Wednesday, heavy rain continues to impact parts of central New Zealand through until Thursday. In addition, large waves, storm surges and coastal inundation are still affecting exposed coasts of the North Island.</p><p>It is important to keep up to date with MetService forecasts and follow the advice of local authorities.</p>\n\nundefined",
+  "impact": "These winds are expected to produce widespread damage, especially to trees and powerlines and could lift roofs. Transport and power networks are likely to be significantly impacted, with road closures and power outages. Conditions will be hazardous for motorists and there is a danger to life from flying debris and falling trees or branches."
+}

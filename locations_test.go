@@ -26,7 +26,7 @@ func TestGetAffectedLocations(t *testing.T) {
 
 }
 
-func getTestPoly() polyType {
+func getTestPoly() WarningPolysType {
 	return Poly2()
 }
 
