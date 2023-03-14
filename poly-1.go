@@ -3,6 +3,7 @@ package ShapeServiceGo
 import "github.com/paulmach/orb"
 
 func Poly1Orb() orb.Polygon {
+	// create a warning poly and convert to geoJson
 	poly := WarningPolyType{
 		{-46.082, 170.23},
 		{
